@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor Riot</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css.css"/>
+    <script type="text/javascript" src="java.js"></script>
+    <style>
+
+
+    </style>
+</head>
+<body>
+    <header >
+    
+        <div class="logo">
+            <a href="file:///C:/Users/toni_/Desktop/proiect%20final/Principal.html">
+        <img src="file:///C:/Users/toni_/Desktop/proiect2/1/3.png"></a>
+
+        <div class="containerr">
+            
+            <div class="nav">
+            <ul>
+             <input type="text" class="mySearch" onkeyup="myFunction()"  placeholder="Search..">
+             <button class="btn-search"><i class="fas fa-search"></i></button>
+             
+             <li><a href="file:///C:/Users/toni_/Desktop/proiect%20final/Principal.html" target="_self">Acasa</a></li>
+             <li><a href="login.html" target="_blank">Log in</a></li>
+             <a href="#" class="bag">
+                <i class="fa fa-shopping-cart"></i>
+                
+
+            </a>
+            </ul>
+         
+        </div>
+     </div>
+    
+    <div class="cart">
+        <a href="#" class="closecart"><i class="fas fa-times"></i></a>
+        <div id="minicart">                      
+            <table id="lista-carrito" class="u-full-width">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Nume</th>
+                        <th>Pret</th>
+                        <th>Cantitate</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table><span id="total_price">Total:</span>
+            <a href="#" id="vaciar-carrito" class="button u-full-width">
+                Sterge <i class="far fa-trash-alt"></i>
+            </a>
+        </div>
+    </div>
+
+   </div>
+
+ </div>
+</header>
+
+
+<input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+<label for="openSidebarMenu" class="sidebarIconToggle">
+  <div class="spinner diagonal part-1"></div>
+  <div class="spinner horizontal"></div>
+  <div class="spinner diagonal part-2"></div>
+</label>
+
+
+<div id="sidebarMenu">
+  <ul class="sidebarMenuInner">
+    <li><a href="file:///C:/Users/toni_/Desktop/proiect%20final/frame/Frame.html" target="_self">Frame</a></li>
+    <li><a href="file:///C:/Users/toni_/Desktop/proiect%20final/ESC/esc.html" target="_self">Esc</a></li>
+    <li><a href="file:///C:/Users/toni_/Desktop/proiect%20final/FlightControler/FlightControler.html" target="_self">Flight Controler</a></li>
+    <li><a href="file:///C:/Users/toni_/Desktop/proiect%20final/motor/motor.html" target="_self">Motoare</a></li>
+    <li><a href="file:///C:/Users/toni_/Desktop/proiect%20final/VTX/VTX.html" target="_self">VTX</a></li>
+    <li><a href="file:///C:/Users/toni_/Desktop/proiect%20final/Ochelari/ochelari.html" target="_self">Ochelari</a></li>
+    <li><a href="file:///C:/Users/toni_/Desktop/proiect%20final/Elicii/elicii.html" target="_self">Elicii</a></li>
+    <li><a href="file:///C:/Users/toni_/Desktop/proiect%20final/Camere/camere.html" target="_self">Camere</a></li>
+    <li><a href="file:///C:/Users/toni_/Desktop/proiect%20final/Telecomenzi/Telecomenzi.html" target="_self">Telecomenzi</a></li>
+    <li><a href="file:///C:/Users/toni_/Desktop/proiect%20final/baterii/baterii.html" target="_self">Baterii</a></li>
+    <li><a href="file:///C:/Users/toni_/Desktop/proiect%20final/diverse/diverse.html" target="_self">Diverse</a></li>
+  </ul>
+</div>
+
+
+<div id="slider">
+    <ul id="slideWrap">
+      <li><img src="file:///C:/Users/toni_/Desktop/proiect%20final/slider/DJI.PNG" alt=""></li>
+      <li><img src="file:///C:/Users/toni_/Desktop/proiect2/1/Camere/foxeer-mini-cat-3---1200tvl-starlight-fpv-camera---2.1mm-black-1000x1000.jpg" alt=""></li>
+      <li><img src="" alt=""></li>
+      <li><img src="" alt=""></li>
+      <li><img src="" alt=""></li>
+    </ul>
+    <a id="prev" href="#">&#8810;</a>
+    <a id="next" href="#">&#8811;</a>
+  </div>
+
+  
+
+    <!-- SIDE BAR MENU-->
+ 
+  <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+  <label for="openSidebarMenu" class="sidebarIconToggle">
+    <div class="spinner diagonal part-1"></div>
+    <div class="spinner horizontal"></div>
+    <div class="spinner diagonal part-2"></div>
+  </label>
+
+  
+
+  <div class="cards container">
+    <div class="card">
+        <img src="file:///C:/Users/toni_/Desktop/proiect2/imagini/GEPRCMark4HD.jpg" width="100%">
+        <p class="title">Drona GEPRC Mark4 HD GPS 6S FPV Copter PNP</p>
+       <p class="price">Preţ: 2600 Lei</p>
+        <a class="button" data-id="1">Add to Card</a>
+    </div>
+    <div class="card">
+        <img src="file:///C:/Users/toni_/Desktop/proiect2/imagini/DronaGEPRCCineLog25HD.jpg" width="100%">
+        <p class="title">Drona GEPRC Crown HD 3" DJI FPV Cinewhoop PNP 4S</p>
+        <p class="price">Preţ: 2500 Lei</p>
+        <a href="#" class="button" data-id="2">Add to Card</a>
+    </div>
+    <div class="card">
+        <img src="file:///C:/Users/toni_/Desktop/proiect2/imagini/DronaGEPRCCrownAnalogCinewhoop1.jpg" width="100%">
+        <p class="title">Drona GEPRC Crown Analog Cinewhoop</p>
+        <p class="price">Preţ: 1400 Lei</p> </br>
+        <a  class="button" data-id="3">Add to Card</a>
+    </div>
+    <div class="card">
+        <img src="file:///C:/Users/toni_/Desktop/proiect2/imagini/DronaGEPRCAnalog4KMicroLongRange1.jpg" width="100%">
+        <p class="title">Drona GEPRC Inch Longrange Analog PNP</p>
+        <p class="price">Preţ: 1100 Lei</p></br>
+        <a class="button" data-id="4">Add to Card</a>
+    </div>
+
+    <div class="card">
+        <img src="file:///C:/Users/toni_/Desktop/proiect2/imagini/RadioMasterTX16S1.jpg" width="100%">
+        <p class="title">Radiomaster tx16s hall sensor gimbals 2.4g 16ch multi-protocol</p>
+        <p class="price">Preţ: 1300 Lei</p> 
+        <a href="#" class="button" data-id="5">Add to Card</a>
+    </div>
+
+    <div class="card">
+        <img src="file:///C:/Users/toni_/Desktop/proiect2/imagini/TMotorF60PROIVKV1950a.jpg" width="100%">
+        <p class="title">T-Motor F60PRO IV KV1950 </p>
+        <p class="price">Preţ: 160 Lei</p></br>
+        <a href="#" class="button" data-id="6">Add to Card</a>
+    </div>
+    <div class="card">
+        <img src="file:///C:/Users/toni_/Desktop/proiect2/imagini/TBSUnifyPRO32Nano5G8V11a.jpg" width="100%">
+        <p class="title">TBS Unify PRO32 Nano 5G8 V1.1</p>
+        <p class="price">Preţ: 180 Lei</p></br>
+        <a href="#" class="button" data-id="7">Add to Card</a>
+    </div>
+    <div class="card">
+        <img src="file:///C:/Users/toni_/Desktop/proiect2/imagini/DronaGEPRCCineLog25HD.jpg" width="100%">
+        <p class="title">Drona GEPRC Crown HD 3" DJI FPV Cinewhoop PNP 4S</p>
+               <p class="price">Preţ: 2300 Lei</p>
+        <a href="#" class="button" data-id="8">Add to Card</a>
+    </div>
+    <div class="card">
+        <img src="file:///C:/Users/toni_/Desktop/proiect2/1/Camere/1_8d5f554f-08ff-4fad-825d-8beb3487b716_1500x.jpeg" width="100%">
+        <p class="title">Caddx Nebula Pro Nano Vista Kit</p>
+        <p class="price">Preţ: 760 Lei</p></br>
+        <a href="#" class="button" data-id="9">Add to Card</a>
+    </div>
+    <div class="card">
+        <img src="file:///C:/Users/toni_/Desktop/proiect2/1/frame/1_8a2714dd-9980-4984-87ab-cbfd6ac15500_1600x.jpg" width="100%">
+        <p class="title">Flywoo Hexplorer LR 4" Hexacopter Frame</p>
+        <p class="price">Preţ: 220 Lei</p></br>
+        <a href="#" class="button" data-id="10">Add to Card</a>
+    </div>
+    <div class="card">
+        <img src="file:///C:/Users/toni_/Desktop/proiect2/1/diverse/TBSCrossfireNanoTXRetrofitKit1.jpg" width="100%">
+        <p class="title">TBS Crossfire Nano TX - Retrofit Kit</p>
+        <p class="price">Preţ: 50 Lei</p>
+        <a href="#" class="button" data-id="11">Add to Card</a>
+    </div>
+    <div class="card">
+        <img src="file:///C:/Users/toni_/Desktop/proiect2/1/VTX/rush-fpv-tank-ii-ultimate-30x30-25-800mw-vtx-w-smart-audio---mmcx.jpg" width="100%">
+        <p class="title">RUSHFPV RUSH TANK II 5.8GHz VTX w/ Smart Audior</p>
+        <p class="price">Preţ: 160 Lei</p>
+        <a href="#" class="button" data-id="12">Add to Card</a>
+    </div>
+
+</div>
+
+ <!--!!!!FOOTER!!!!-->
+ <section id="footer">
+    <div class="main-footer">
+      <div class="logoinfo" data-aos="fade-up">
+        <h2>Motor Riot</h2>
+  
+        <div class="contact-details">
+          <h1>Contact Us</h1>
+          <li>
+            <div class="fa fa-phone"></div><a href="+40123456789">+40123456789</a></li>
+          <li>
+            <div class="fa fa-envelope"></div><a href="motorriot@gmail.com">motorriot@gmail.com</a></li>
+          </li>
+      </div>
+    </div>
+    <div class="com " data-aos="fade-up">
+      <h1>About</h1>
+      <ul>
+        <li><a href="Home">Home</a></li>
+        <li><a href="About">About</a></li>
+        <li><a href="Projects">Projects</a></li>
+        <li><a href="Contact">Contact</a></li>
+      </ul>
+    </div>
+    
+    <div class="info" data-aos="fade-up">
+      <h1>Social Media</h1>
+      <div class="sociallogos">
+        <div class="logobox">
+          <ul>
+          <li><a href="#" >Youtube
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+              </svg>
+          </a></li>
+
+          <li><a href="#" >Instagram
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+              </svg>
+          </a></li>
+
+          <li><a href="#"> Facebook
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg></a></li>
+
+        </ul>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  <footer>© Your Copyright 2022 All Rights Reserved</footer>
+  </section>
+
+    <script>
+const bag =  document.querySelector('header .bag ');
+const cart =  document.querySelector('.cart');
+const closecartBtn = document.querySelector('.closecart');
+const contenedorCarrito =  document.querySelector('#lista-carrito tbody');
+const carrito = document.querySelector('#minicart');
+const vaciarCarritoBtn =  document.querySelector('#vaciar-carrito');
+
+
+const courseList = document.querySelector('.cards');
+let articulosCarrito = [];
+let total = 0;
+
+loadEventListeners()
+function loadEventListeners(){
+    
+    bag.addEventListener('click', openCart);
+
+   
+    closecartBtn.addEventListener('click', closecart)
+
+  
+    courseList.addEventListener('click', addCourse);
+
+ 
+    carrito.addEventListener('click', eliminarCurso);
+
+   
+    vaciarCarritoBtn.addEventListener('click', ()=>{
+        articulosCarrito = []; 
+        limpiarHTML()
+    })
+}
+
+
+function openCart(e){
+    e.preventDefault();
+    cart.classList.add('activo')
+}
+
+function closecart(e) {
+    e.preventDefault();
+    cart.classList.remove('activo')
+}
+
+
+function addCourse(e) {
+    e.preventDefault();
+    if (e.target.classList.contains('button')) {
+        const cursoSelected = e.target.parentElement;
+        datosCurso(cursoSelected)
+    }
+}
+
+function eliminarCurso(e){
+    if(e.target.classList.contains('deletebtn')) {
+        const cursoID = e.target.getAttribute('data-id');
+        articulosCarrito = articulosCarrito.filter( curso => curso.id !== cursoID);
+
+        carritoHTML();
+    }
+}
+
+
+function datosCurso(curso){
+
+  
+    const infoCurso = {
+        image: curso.querySelector('img').src,
+        title: curso.querySelector('.title').textContent,
+        price: curso.querySelector('.price').textContent,
+        id: curso.querySelector('a').getAttribute('data-id'),
+        cantidad: 1
+    }
+
+   
+    const existe = articulosCarrito.some( curso => curso.id === infoCurso.id);
+    if(existe){
+      
+        let cursos = articulosCarrito.map(curso =>{
+            if(curso.id === infoCurso.id){
+                curso.cantidad++;
+                return curso;
+            }else {
+                return curso;
+            }
+        });
+        articulosCarrito = [...cursos];
+    }else{
+        
+        articulosCarrito = [...articulosCarrito, infoCurso];
+    }
+    
+    carritoHTML();
+}
+
+
+function carritoHTML() {    
+    limpiarHTML();
+    articulosCarrito.forEach( curso =>{
+        
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td><img src="${curso.image}" width="100"></td>
+            <td>${curso.title}</td>
+            <td>${curso.price}</td>
+            <td>${curso.cantidad}</td>
+            <td><a href="#" class="deletebtn" data-id="${curso.id}">X</a></td>
+            
+        `;
+      
+        contenedorCarrito.appendChild(row);
+
+        //Total
+        total = curso.price + curso.price
+        console.log(total);
+    })
+    
+}
+
+
+function limpiarHTML(){
+    
+
+    while(contenedorCarrito.firstChild){
+        contenedorCarrito.removeChild(contenedorCarrito.firstChild)
+    }
+}
+
+var User_Name = document.getElementById(".card").value;
+var Quantity = document.getElementById("curso.cantidad").value;
+var Price = document.getElementById("Price").value;
+
+
+function calculateTax(Price) {
+document.getElementById("Total").value = Price +Price;
+}
+</script>
+</body>
+</html>
